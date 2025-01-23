@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="yes.css"> <!-- Reuse the same CSS -->
+    <title>You Said YES!</title>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti"></script> <!-- Add confetti library -->
+</head>
+<body>
+    <h1 style="color: black; text-align: center; margin-top: 20%;">Yay! I knew you'd say yes! ❤️</h1>
+    <img src="happihappi.gif" alt="Hearts GIF" style="display: block; margin: auto; width: 300px; height: auto;">
+
+    <script>
+        // Trigger the confetti effect as soon as the page loads
+        window.onload = () => {
+            confetti({
+                particleCount: 100, // Number of particles
+                spread: 90, // How far they spread
+                origin: { x: 0.5, y: 0.5 }, // Where it comes from (center)
+                colors: ['#ff0000', '#ff6600', '#ffcc00', '#00ff00', '#0000ff', '#9900cc'], // Colors of the confetti
+            });
+        };
+    </script>
+</body>
+</html>

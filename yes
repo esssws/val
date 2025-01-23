@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+
+<h1>Will you be my valentine?</h1>
+<img src="cutecat.jpg" width="500" height="500" >
+<button><br>yes</button>
+<button>no</button>
+
+</body>
+</html>
+
